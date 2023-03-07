@@ -6,7 +6,7 @@ export default function NavBar() {
     <div className="navbar bg-base-100 shadow-sm sticky">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
-          <div className="dropdown">
+          <div className="dropdown ">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@ export default function NavBar() {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52  "
             >
               <li>
                 <Link href={"#"}>Home</Link>
@@ -35,12 +35,6 @@ export default function NavBar() {
               </li>
               <li>
                 <Link href={"#"}>Skills</Link>
-              </li>
-              <li>
-                <Link href={"#"}>Services</Link>
-              </li>
-              <li>
-                <Link href={"#"}>Contact</Link>
               </li>
             </ul>
           </div>
